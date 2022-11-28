@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/green"
+        android:id="@+id/green1"
+        android:actionLayout="@layout/fragment_green"/>
+
+    <item android:title="@string/blue"
+        android:id="@+id/blue"
+        android:actionLayout="@layout/fragment_blue"/>
+
+    <item android:title="@string/red"
+        android:id="@+id/red1"
+        android:actionLayout="@layout/fragment_red"/>
+</menu>

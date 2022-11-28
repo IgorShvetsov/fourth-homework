@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator"
+    app:startDestination="@id/blankFragment4">
+    <fragment
+        android:id="@+id/blankFragment4"
+        android:name="ru.yacevyuk.r.r.company.home_work_8.BlankFragment4"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" >>
+        <action
+            android:id="@+id/action_blankFragment4_to_blankFragment35"
+            app:destination="@id/blankFragment35" />
+        <action
+            android:id="@+id/action_blankFragment4_to_blankFragment8"
+            app:destination="@id/blankFragment8" />
+        <action
+            android:id="@+id/action_blankFragment4_to_blankFragment25"
+            app:destination="@id/blankFragment25" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment25"
+        android:name="ru.yacevyuk.r.r.company.home_work_8.BlankFragment2"
+        android:label="fragment_blue"
+        tools:layout="@layout/fragment_blue" />
+    <fragment
+        android:id="@+id/blankFragment35"
+        android:name="ru.yacevyuk.r.r.company.home_work_8.BlankFragment3"
+        android:label="fragment_red"
+        tools:layout="@layout/fragment_red" />
+    <fragment
+        android:id="@+id/blankFragment8"
+        android:name="ru.yacevyuk.r.r.company.home_work_8.BlankFragment"
+        android:label="fragment_green"
+        tools:layout="@layout/fragment_green" />
+
+</navigation>
